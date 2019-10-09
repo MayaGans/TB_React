@@ -1,5 +1,7 @@
 import * as Blockly from 'blockly/core';
 import 'blockly/javascript';
+import { registerPrefix } from '../../tidyblocks/tidyblocks'
+
 //
 // Generate code to create 2x2 data frame for testing purposes.
 //

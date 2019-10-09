@@ -1,5 +1,6 @@
 import * as Blockly from 'blockly/core';
 import 'blockly/javascript';
+import { registerPrefix } from '../../tidyblocks/tidyblocks'
 
 //
 // Generate code to create colors data frame for testing.

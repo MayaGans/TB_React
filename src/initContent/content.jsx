@@ -3,42 +3,82 @@ import BlocklyJS from 'blockly/javascript';
 import '../blocks/data_colors'
 import '../generators/js/data_colors'
 import '../blocks/data_double';
+import '../generators/js/data_double'
 import '../blocks/data_earthquakes';
+import '../generators/js/data_earthquakes'
 import '../blocks/data_iris';
+import '../generators/js/data_iris'
 import '../blocks/data_missing';
+import '../generators/js/data_missing'
 import '../blocks/data_mtcars';
+import '../generators/js/data_mtcars'
 import '../blocks/data_single';
+import '../generators/js/data_single'
 import '../blocks/data_toothGrowth';
+import '../generators/js/data_toothGrowth'
 import '../blocks/data_urlCSV';
+import '../generators/js/data_urlCSV'
+
 import '../blocks/plot_bar';
+import '../generators/js/plot_bar'
 import '../blocks/plot_boxplot';
+import '../generators/js/plot_boxplot'
 import '../blocks/plot_hist';
+import '../generators/js/plot_hist'
 import '../blocks/plot_point';
+import '../generators/js/plot_point'
 import '../blocks/plot_table';
+import '../generators/js/plot_table'
+
 import '../blocks/plumbing_join';
+import '../generators/js/plumbing_join'
 import '../blocks/plumbing_notify';
+import '../generators/js/plumbing_notify'
+
 import '../blocks/transform_filter';
+import '../generators/js/transform_filter'
 import '../blocks/transform_groupby';
+import '../generators/js/transform_groupby'
 import '../blocks/transform_mutate';
+import '../generators/js/transform_mutate'
 import '../blocks/transform_select';
+import '../generators/js/transform_select'
 import '../blocks/transform_sort';
+import '../generators/js/transform_sort'
 import '../blocks/transform_summarize_item';
 import '../blocks/transform_summarize';
+import '../generators/js/transform_summarize'
 import '../blocks/transform_ungroup';
+import '../generators/js/transform_ungroup'
+
 import '../blocks/value_arithmetic';
+import '../generators/js/value_arithmetic'
 import '../blocks/value_boolean';
+import '../generators/js/value_boolean'
 import '../blocks/value_column';
+import '../generators/js/value_column'
 import '../blocks/value_compare';
+import '../generators/js/value_compare'
 import '../blocks/value_convert_datetime';
+import '../generators/js/value_convert_datetime'
 import '../blocks/value_convert';
+import '../generators/js/value_convert'
 import '../blocks/value_datetime';
+import '../generators/js/value_datetime'
 import '../blocks/value_ifelse';
+import '../generators/js/value_ifelse'
 import '../blocks/value_logical';
+import '../generators/js/value_logical'
 import '../blocks/value_negate';
+import '../generators/js/value_negate'
 import '../blocks/value_not';
+import '../generators/js/value_not'
 import '../blocks/value_number';
+import '../generators/js/value_number'
 import '../blocks/value_text';
+import '../generators/js/value_text'
 import '../blocks/value_type';
+import '../generators/js/value_type'
 
 const INITIAL_XML = '<xml xmlns="http://www.w3.org/1999/xhtml"><block type="text" x="70" y="30"><field name="TEXT"></field></block></xml>';
 

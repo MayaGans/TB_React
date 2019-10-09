@@ -69,7 +69,7 @@ const csv2TidyBlocksDataFrame = (text, parser) => {
  * @param {string} fill Comma-separated list of quoted strings identifying pipelines to wait for.
  * @returns {string} Text to insert into generated code.
  */
-const registerPrefix = (fill) => {
+export const registerPrefix = (fill) => {
   return `${TIDYBLOCKS_START} TidyBlocksManager.register([${fill}], () => {`
 }
 
