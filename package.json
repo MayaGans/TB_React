@@ -1,20 +1,36 @@
 {
   "name": "react-blockly",
   "version": "4.1.0",
-  "description": "A React wrapper for the Blockly visual programming editor",
+  "description": "A blocks-based tool for tidy data manipulation and analysis.r",
   "main": "dist-modules",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "lint": "eslint --ext .js,.jsx src",
     "lint:fix": "eslint --fix --ext .js,.jsx src",
     "start": "webpack-dev-server --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "babel ./src --out-dir ./dist-modules",
     "prepublish:watch": "babel ./src --watch --out-dir ./dist-modules",
-    "prepare": "npm run prepublishOnly"
+    "prepare": "npm run prepublishOnly",
+    "jsdoc": "jsdoc --destination docs --readme README.md tidyblocks/*.js test/*.js",
+    "lint": "eslint blocks/*.js tidyblocks/*.js generators/js/*.js tests/*.js",
+    "test": "mocha",
+    "coverage": "nyc --reporter=html --reporter=text mocha"
   },
-  "author": "Nat Budin <natbudin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidyblocks/tidyblocks.git"
+  },
+  "keywords": [
+    "blocks",
+    "JavaScript",
+    "tidy",
+    "data"
+  ],
+  "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tidyblocks/tidyblocks/issues"
+  },
+  "homepage": "https://github.com/tidyblocks/tidyblocks#readme",
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "blockly": "^2.20190722.1",
@@ -59,9 +75,5 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nbudin/react-blockly/"
   }
 }
