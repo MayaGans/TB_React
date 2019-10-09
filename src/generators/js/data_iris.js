@@ -1,6 +1,6 @@
 import * as Blockly from 'blockly/core';
 import 'blockly/javascript';
-import { registerPrefix } from '../../tidyblocks/tidyblocks'
+import { registerPrefix, TidyBlocksManagerClass } from '../../tidyblocks/tidyblocks'
 
 //
 // Generate code to pull iris.csv from GitHub.

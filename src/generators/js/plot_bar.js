@@ -1,5 +1,6 @@
 import * as Blockly from 'blockly/core';
 import 'blockly/javascript';
+import { registerSuffix } from '../../tidyblocks/tidyblocks'
 //
 // Create a bar plot.
 //
