@@ -1,0 +1,11 @@
+/dist
+/dist-modules
+/node_modules
+.idea/*
+
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/react-blockly-component.iml
+.idea/vcs.xml
